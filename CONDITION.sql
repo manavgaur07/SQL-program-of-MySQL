@@ -1,0 +1,3 @@
+SELECT *
+FROM student
+WHERE studentid = 7369 AND 7777 AND 2233
