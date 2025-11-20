@@ -1,0 +1,7 @@
+USE mypc;
+CREATE TABLE student(
+StudentID INT PRIMARY KEY,
+Name VARCHAR(100),
+Email VARCHAR(100) UNIQUE,
+Age INT
+);

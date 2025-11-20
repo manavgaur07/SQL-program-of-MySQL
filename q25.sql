@@ -1,0 +1,3 @@
+ALTER TABLE Orders
+ADD CONSTRAINT fk_customer_sid
+FOREIGN KEY (Customer_SID) REFERENCES Customer(SID);
